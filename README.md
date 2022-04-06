@@ -1,5 +1,5 @@
 ## Catboost를 이용한 잡케어 추천 알고리즘 경진대회_테이브팀 :blush:
-범주형 변수에 강력한 성능을 보여주는 catboost를 이용하여 코드를 작성했습니다.
+범주형 변수에 강력한 성능을 보여주는 **catboost**를 이용하여 코드를 작성했습니다.
 구글 코랩에서 작성하였고, GPU를 이용하여 학습했습니다.
 최종 예측 파일의 threshold 값을 조정해서 재현율을 끌어 올려 LB 점수에서 효과를 봤습니다.
 
@@ -83,10 +83,10 @@ Best Params: {'iterations': 1422, 'objcetive': 'CrossEntropy', 'bootstrap_type':
 
 
 
-## 4.결과값 제출
+## 4. 결과값 제출
 train을 K-fold한 값의 평균을 구하다 보니 예측값의 극단값이 작아질 수 밖에 없습니다.
 
-따라서 threshold를 조정해가며 최적의 threshold : 0.33792를 찾았습니다!
+따라서 threshold를 조정해가며 최적의 **threshold : 0.3379**를 찾았습니다!
 
 ```py
 cols_drop = ["id","person_prefer_f","person_prefer_g" ,
