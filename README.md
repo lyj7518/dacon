@@ -42,6 +42,8 @@
 - Eli5 패키지의 permutation feature importance로 catboostclassifier모델을 진행하는데 있어 제외할 컬럼을 미리 선정했습니다. 또한 cat_feature에 범주형 칼럼리스트를 만들어 학습에 용이하게 했습니다.
 
 ```py
+import pandas as pd
+import numpy as np
 import os
 import sys
 import platform
@@ -49,8 +51,6 @@ import random
 import math
 from typing import List ,Dict, Tuple
 
-import pandas as pd
-import numpy as np
  
 import sklearn 
 from sklearn.model_selection import StratifiedKFold , KFold
