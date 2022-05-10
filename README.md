@@ -79,7 +79,7 @@ Best Params: {'iterations': 1422, 'objcetive': 'CrossEntropy', 'bootstrap_type':
 ```
 
 
-모델링 전개과정 넣깅
+모델링 전개과정 넣기
 
 
 
