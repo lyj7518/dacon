@@ -26,7 +26,7 @@
 ### 실행 프로세스
 
 1. 데이터 전처리
-    + eli5_permutation feature importance 기반 데이터 전처리
+    + eli5_permutation feature importance 기반 데이터 전처리 (주요 feature selection)
 
 2. Optuna 프레임워크
     + best parameter 추출
