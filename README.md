@@ -3,7 +3,7 @@
 구글 코랩에서 작성하였고, GPU를 이용하여 학습했습니다.
 최종 예측 파일의 threshold 값을 조정해서 재현율을 끌어 올려 LB 점수에서 효과를 봤습니다.
 
-(아래코드는 국경원 요원님의 잡케어 추천 알고리즘 경진대회 [Private 8위 0.66203] | Catboost 코드를 참고하여 수정하였습니다.)
+(아래코드는 국경원 요원님의 잡케어 추천 알고리즘 경진대회 [Private 8위 0.66203] | Catboost 코드를 참고하여 수정하였니다.)
 [참조 코드](https://dacon.io/competitions/official/235863/codeshare/3887?page=1&dtype=recent)
 
 ## 1.Library & Data Load
